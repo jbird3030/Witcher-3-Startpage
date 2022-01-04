@@ -1,0 +1,44 @@
+/*Jason McGee, Jan 4, 2022.
+    Witcher 3 themed startpage customized for CSCC.
+    Built for Firefox using Witcher 3 theme.*/
+
+body {
+	background-image: url(../images/Witcher\ 3\ Wild\ Hunt\,\ The\ -\ \ wallpaper\ 1.jpg);
+}
+
+#content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.cscc{
+    width: 100px;
+    float: left;
+    margin-top: 2%;
+    margin-right: 30%;
+    margin-left: 80px;
+}
+
+.blackboard{
+    width: 100px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 700px;
+}
+
+.email{
+    width: 100px;
+    float: left;
+    margin-left: 10em;
+    margin-top: 12em;
+}
+
+.oreilly {
+    float: right;
+    margin-top: 200px;
+    margin-right: 20px;
+    margin-left: 700px;
+}
+
