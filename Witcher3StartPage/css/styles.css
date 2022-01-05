@@ -3,44 +3,52 @@
     Built for Firefox using Witcher 3 theme.*/
 
 body {
-	background-image: url("../images/Witcher\ 3\ Wild\ Hunt\,\ The\ -\ \ wallpaper\ 1.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+	background-image: url(../images/Witcher\ 3\ Wild\ Hunt\,\ The\ -\ \ wallpaper\ 1.jpg);
 }
 
-#content {
+#content1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 
 }
 
 .cscc{
     width: 100px;
     float: left;
-    margin-top: 1em;
-    margin-right: 1em;
+    margin-top: 2%;
+    margin-right: 30%;
+    margin-left: 80px;
 }
 
 .blackboard{
     width: 100px;
     float: right;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-left: 700px;
+    padding: 100px;
+    padding-left: 250px;
+}
+
+#content2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.oreilly {
+    float: right;
+    padding: 125px;
 }
 
 .email{
     width: 100px;
     float: left;
-    margin-left: 10em;
-    margin-top: 12em;
+    margin: 200px;
 }
 
-.oreilly {
+.connect {
     float: right;
-    margin-top: 200px;
-    margin-right: 20px;
-    margin-left: 700px;
+    padding: 40px;
+    margin-top: 150px;
+    margin-left: 500px;
 }
+
 
